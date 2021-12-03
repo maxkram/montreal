@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bienvenue à Montréal</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="img/logo.svg" alt="Motreal" />
+          </a>
+        </div>
+
+        <ul class="navbar-nav-left">
+          <li>
+            <a href="#">Places</a>
+          </li>
+          <li>
+            <a href="#">People</a>
+          </li>
+          <li>
+            <a href="#">Events</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav-right">
+          <li>
+            <a href="#">
+              <img src="img/marker.svg" alt="" />
+              <span>Find a place</span>
+            </a>
+          </li>
+          <li><button class="btn btn-dark-outline">Sign in</button></li>
+          <li><button class="btn btn-dark">Join now</button></li>
+        </ul>
+
+        <!-- Hamburger Menu -->
+        <button type="button" class="hamburger" id="menu-btn">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+      <ul>
+        <li>
+          <a href="#">Places</a>
+        </li>
+        <li>
+          <a href="#">People</a>
+        </li>
+        <li>
+          <a href="#">Events</a>
+        </li>
+      </ul>
+
+      <div class="mobile-menu-bottom">
+        <button class="btn btn-dark-outline">Sign in</button>
+        <button class="btn btn-dark">Join now</button>
+        <div>
+          <a href="#">
+            <img src="img/marker.svg" alt="" />
+            <span>Find a place</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box A -->
+    <section class="box box-a bg-primary text-center py-md">
+      <div class="box-inner">
+        <h2 class="text-xl">C'est délicieux à Montréal. Essayez-le !</h2>
+        <p class="text-md">
+          Apprenez-en plus sur les endroits merveilleux de Montréal
+          <a href="#">Apprendre encore plus</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Box B -->
+    <section class="box box-b bg-secondary grid-col-2">
+      <img src="img/fruits.jpg  " alt="" />
+      <div class="box-text">
+        <h2 class="text-xl">Saison ouverte</h2>
+        <p class="text-md">
+          Dessert fantastique sur une cuillère. Cuillère - Comestible
+        </p>
+        <a href="#" class="btn btn-light-outline">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Box C -->
+    <section class="box box-c bg-secondary grid-col-2 grid-reversed">
+      <img src="img/burger.jpg" alt="" />
+      <div class="box-text">
+        <h2 class="text-xl">Sandwich du Vieux-Montréal</h2>
+        <p class="text-md">À peine ramper après une dure journée ?</p>
+        <a href="#" class="btn btn-light-outline">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Box D -->
+    <section class="box box-d bg-primary grid-col-2">
+      <img src="img/bagel.jpg" alt="" />
+      <div class="box-text">
+        <h2 class="text-xl">Bagel de Montréal</h2>
+        <p class="text-md">La Balance ment</p>
+        <a href="#" class="btn btn-light-outline">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Box E -->
+    <section class="box box-e bg-secondary grid-col-2 grid-reversed">
+      <img src="img/putin.jpg" alt="" />
+      <div class="box-text">
+        <h2 class="text-md">Combattre la faim ce jour férié</h2>
+        <p class="text-sm">
+          Pas le temps pour les gourmandises. A mangé - et vous avez terminé
+        </p>
+        <a href="#" class="btn btn-light-outline">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Box F -->
+    <section class="box box-f grid-col-2">
+      <div>
+        <img src="img/cake.jpg" alt="" />
+        <div class="bg-extra py-lg">
+          <div class="box-text">
+            <h2 class="text-md">Laissez la joie des Fêtes venir à vous</h2>
+            <p class="text-sm">Taste gourmet desserts</p>
+            <a href="#" class="btn btn-dark-outline">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="img/veges.jpg" alt="" />
+        <div class="bg-primary py-lg">
+          <div class="box-text">
+            <h2 class="text-md">Commandez de la nourriture à la maison</h2>
+            <p class="text-sm">
+              Cassez les balances, ouvrez les friandises et allumez la série
+              télévisée
+            </p>
+            <a href="#" class="btn btn-light-outline">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="social">
+          <a href="https://spotify.com">
+            <img src="./img/social-spotify.svg" alt="" />
+          </a>
+          <a href="https://facebook.com">
+            <img src="./img/social-facebook.svg" alt="" />
+          </a>
+          <a href="https://pinterest.com">
+            <img src="./img/social-pinterest.svg" alt="" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="./img/social-instagram.svg" alt="" />
+          </a>
+          <a href="https://youtube.com">
+            <img src="./img/social-youtube.svg" alt="" />
+          </a>
+          <a href="https://twitter.com">
+            <img src="./img/social-twitter.svg" alt="" />
+          </a>
+        </div>
+        <p>
+          © 2021 Société de prise de poids de Montréal. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
